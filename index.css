@@ -1,0 +1,80 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+     
+  
+    
+}
+
+img, body{
+    box-sizing:10px 10px;
+}
+body{
+   background-color: darkslategrey;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    align-items: center;
+}
+.imgStyles{
+    border:grey solid 1px;
+    width: 100px;
+    
+}
+input {
+color: black;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+color: black;
+    background-color:azure;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+button:hover {
+    background-color:antiquewhite;
+    cursor: pointer;}
+
+
+.productStyles{
+    color: black solid;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: black;
+    
+}
+
+ul li {
+    color:black;
+    font-size: 20px;
+    font-weight: 100;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    margin:10px;
+    padding: 20px;
+    text-align: center;
+    background-color: lightseagreen;
+}
+ul li:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
